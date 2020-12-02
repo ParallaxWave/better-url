@@ -1,0 +1,87 @@
+*{
+  font-family: "Roboto Slab";
+  transition: 0.3s;
+  outline: none;
+}
+body{
+  height: 100%;
+  overflow-y: hidden;
+  display: grid;
+  background-color: #E1F5FE;
+}
+.topDiv{
+  z-index: 2;
+  background-color: #64B5F6;
+  font-size: 30px;
+  color: #E0F7FA;
+  width: 100%;
+  top: 0%;
+  left: 0px;
+  right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 10px;
+  position: fixed;
+  height: 6%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+.right2{
+  float: right;
+  position: relative;
+}
+.mainDiv{
+  margin: auto;
+  text-align: center;
+}
+#enterField{
+  text-align: left;
+  width: 95%;
+  outline: none;
+  font-size: 42px;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  padding-left: 10px;
+  opacity: 0.75;
+  background-color: #81D4FA;
+  color: #FAFAFA;
+}
+.btn{
+  outline: none;
+  font-size: 25px;
+  border: none;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: #FAFAFA;
+  opacity: 0.8;
+}
+::placeholder{
+  color: #FAFAFA; 
+}
+#enterField:hover{
+  opacity: 1;
+  width: 100%
+}
+.btn:hover{
+  opacity: 1;
+}
+p{
+  font-size: 35px;
+  color: #01579B;
+}
+.git{
+  position: fixed;
+				right: 10px;
+				bottom: 10px;
+				border-radius: 70px;
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 4px 0 rgba(0, 0, 0, 0.19);
+				border: none;
+				background-color: #fafafa; 
+				opacity: 70%;
+				padding: 10px;
+				padding-bottom: 14px;
+				font-size: 22px;
+				color: #212121;
+				transition: 0.4s;
+}
